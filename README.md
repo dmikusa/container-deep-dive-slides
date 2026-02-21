@@ -4,6 +4,6 @@ This repo contains my 'Container Deep Dive: Namespaces, Layers, and cgroups' sli
 
 Links to the actual slides:
 
-- [HTML](./final/html/Slides.html)
+- [HTML](./final/Slides.html)
 - [PDF](./final/Slides.pdf)
 - [PPTX](./final/Slides.pptx)
