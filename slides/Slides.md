@@ -61,7 +61,7 @@ Welcome! This is my session. Let's get started!
 </div>
 <div class="column center-img">
 
-![drop-shadow width:10em](https://raw.githubusercontent.com/dmikusa/mcp-a-systems-integration-perspective/refs/heads/main/slides/img/7SIGNAL-LOGO-RGB-CLR-LGHT-BG.svg)
+![drop-shadow width:10em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/7SIGNAL-LOGO-RGB-CLR-LGHT-BG.svg)
 ![drop-shadow width:10em](https://paketo.io/v2/images/logo-paketo-dark.svg)
 ![drop-shadow width:10em](https://buildpacks.io/images/buildpacks-logo.svg)
 
@@ -93,6 +93,25 @@ While I'm not covering WiFi or buildpacks in this talk, if you're curious feel f
 
 <!--
 Slides are available at the link above.
+-->
+
+---
+
+# Feedback
+
+<div class="center-img">
+
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/qr-feedback.png)
+
+</div>
+<div style="text-align: center; padding-top: 0.5em;">
+
+[https://confoo.ca/f/9EA9EB26BB7244CB9B49199F19859999]()
+
+</div>
+
+<!--
+Feedback can be left at this link. It's open for 1 hour after the talk.
 -->
 
 ---
@@ -588,6 +607,44 @@ To experiment, the Linux Kernel also provides some tooling that you can use to m
 ---
 
 # Demo: namespaces & cgroups
+
+---
+
+# Slides
+
+<div class="center-img">
+
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/qr-code.png)
+
+</div>
+<div style="text-align: center; padding-top: 0.5em;">
+
+[https://github.com/dmikusa/container-deep-dive-slides]()
+
+</div>
+
+<!--
+Slides are available at the link above.
+-->
+
+---
+
+# Feedback
+
+<div class="center-img">
+
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/qr-feedback.png)
+
+</div>
+<div style="text-align: center; padding-top: 0.5em;">
+
+[https://confoo.ca/f/9EA9EB26BB7244CB9B49199F19859999]()
+
+</div>
+
+<!--
+Feedback can be left at this link. It's open for 1 hour after the talk.
+-->
 
 ---
 
