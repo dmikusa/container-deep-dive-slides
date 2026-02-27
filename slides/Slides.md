@@ -334,9 +334,9 @@ Images! We need an OCI image with some files. So...
 ![drop-shadow height:5em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/plus.webp)
 
 </div>
-<div class="column center-img top-pad">
+<div class="column center-img">
 
-![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/config.png)
+![drop-shadow height:16em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/config.png)
 
 </div>
 
@@ -567,9 +567,9 @@ In addition to the image files, this is also your chance to volume mount in any 
 
 # Configuration / Settings
 
-<div class="only-img" style="padding-top: 1em">
+<div class="only-img">
 
-![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/config.png)
+![drop-shadow height:16em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/config.png)
 
 </div>
 
