@@ -163,20 +163,8 @@ You can get by with the minimum amount of container flair, but there are benefit
 - You can design systems that work better and take advantage of the technology. For example, containers can be used to streamline build pipelines, more efficiently distribute your applications, and reduce vendor lock-in.
 
 - It's a building block, so after you understand it, you can use the technology in new and interesting ways.
--->
 
----
-
-# Also, because ...
-
-<div class="only-img">
-
-![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/they-re-everywhere.jpg)
-
-</div>
-
-<!--
-If for no other reason, they're everywhere. It helps to understand the technology, because there's a good chance you'll see it again.
+- If nothing else, they're everywhere, so the knowledge is transferrable.
 -->
 
 ---
@@ -233,7 +221,17 @@ VMs offer a higher level of isolation, isolating and running an entire OS, while
 
 # So What is a container then?
 
-## TL;DR - It's an isolated process.
+<div class="columns" style="margin-top: 3em">
+<div class="column" style="text-align: center; margin-top: auto; margin-bottom: auto;">
+
+## An isolated process
+
+</div>
+<div class="column">
+
+![drop-shadow width:12em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/container.png)
+
+</div>
 
 <!--
 That's it. It's a normal process running on your system, but the kernel is enforcing some additional isolation and restrictions on that process. In a way so that the process doesn't know it's being restricted or isolated.
@@ -303,12 +301,12 @@ There are also a couple of examples where they're not really good or bad, but ar
 
 <div class="only-img">
 
-![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/image.png)
+![drop-shadow height:12em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/oci-image.png)
 
 </div>
 
 <!--
-Images! We need a container image. So...
+Images! We need an OCI image with some files. So...
 -->
 
 ---
@@ -343,7 +341,7 @@ Images! We need a container image. So...
 </div>
 
 <!--
-It's pretty simple. An image is a collection of files plus some configuration. But it has some very special properties...
+It's pretty simple. An image is a collection of files plus some configuration. What's special about it is the way that it is structured.
 -->
 
 ---
@@ -359,7 +357,7 @@ It's pretty simple. An image is a collection of files plus some configuration. B
 <!--
 An image is made up of one or more layers, each with it's own unique set of files. Layers are applied in order, with layers on top shadowing or masking files in the layers below them.
 
-A containerized process sees this as a single filesystem though, like all the layers have been flattend. It's like if you were plaing tetris but looking down from the top. Blocks go in, but you can only see the top most blocks.
+A containerized process sees this as a single filesystem though, like all the layers have been flattened. It's like if you were playing Tetris but looking down from the top. Blocks go in, but you can only see the top, visible blocks. It's that way with the files. The container can only see what's visible from the top.
 -->
 
 ---
@@ -379,7 +377,7 @@ Like if you have Ubuntu or UBI image, that can provide the base layer for your i
 
 When users pull or fetch your images, the base layer only gets downloaded once but it can be paired with the layer for each app to run those apps.
 
-Even cooler, you may not even need to fetch that base image at all. It's possible someone else running a container on container orchestrator of choise has already done the same thing and the system can just reuse without fetching it again.
+Even cooler, you may not even need to fetch that base image at all. It's possible someone else running a container on container orchestrator of choice has already done the same thing and the system can just reuse without fetching it again.
 
 The same goes for pushing or publishing images. Your software doesn't have to republish layers that already have been published.
 
