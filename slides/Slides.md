@@ -122,15 +122,15 @@ Feedback can be left at this link. It's open for 1 hour after the talk.
 <div class="column">
 
 1. Basics & Terminology
-2. 
-3. How to build containers
-4. Adoption Plan
+2. Deep Dive on OCI images
+3. Deep Dive on Containers
+4. Demos!!
 
 </div>
-<div class="column">
+<div class="column" style="padding-left: 10em">
 
-![drop-shadow width:10em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/oci-image.png)
-![drop-shadow width:10em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/container.png)
+![drop-shadow width:8em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/oci-image.png)
+![drop-shadow width:8em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/container.png)
 
 </div>
 
@@ -147,7 +147,7 @@ Today's a chance to fix that.
 
 ---
 
-# Learn & Understand Containers
+# Why Learn About Containers?
 
 <div class="only-img">
 
