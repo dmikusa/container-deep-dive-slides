@@ -118,15 +118,29 @@ Feedback can be left at this link. It's open for 1 hour after the talk.
 
 # Why are we here today?
 
+<div class="columns margin3">
+<div class="column">
+
+1. Basics & Terminology
+2. 
+3. How to build containers
+4. Adoption Plan
+
+</div>
+<div class="column">
+
+![drop-shadow width:10em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/oci-image.png)
+![drop-shadow width:10em](https://raw.githubusercontent.com/dmikusa/container-deep-dive-slides/refs/heads/main/slides/img/container.png)
+
+</div>
+
+
 <!--
-To talk about containers!
+To talk about containers & OCI images!
 
-Poll:
-- Who's using containers?
-- Who's doing the bare minimum to get containers into prod?
-- Who's a container expert?
+Many devs use OCI images to get a job done. Their application needs to be deployed, and to do that they need to put it into an OCI image so that it can be run in a container somewhere.
 
-It's common. Many devs use containers to get a job done, but don't really understand them. It's easy enough to copy & paste, get the job done, and move on. Especially when you're busy writing code.
+That's enough for most folks though. The job's done and there are other tasks in the backlog to pick up, so often times developers don't dig in beyond that.
 
 Today's a chance to fix that.
 -->
