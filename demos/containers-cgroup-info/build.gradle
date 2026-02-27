@@ -1,9 +1,9 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.4.+'
+	id 'org.springframework.boot' version '3.5.+'
 	id 'io.spring.dependency-management' version '1.1.+'
 	id 'org.graalvm.buildtools.native' version '0.10.+'
-	id 'gg.jte.gradle' version '3.1.+'
+	id 'gg.jte.gradle' version '3.2.+'
 	id "com.diffplug.spotless" version "6.+"
 }
 
@@ -43,9 +43,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
-	implementation 'gg.jte:jte:3.1.+'
-	implementation 'gg.jte:jte-spring-boot-starter-3:3.1.+'
-	jteGenerate('gg.jte:jte-native-resources:3.1.+')
+	implementation 'gg.jte:jte:3.2.+'
+	implementation 'gg.jte:jte-spring-boot-starter-3:3.2.+'
+	jteGenerate('gg.jte:jte-native-resources:3.2.+')
 
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 

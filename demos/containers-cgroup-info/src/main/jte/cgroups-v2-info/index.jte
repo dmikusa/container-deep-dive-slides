@@ -42,35 +42,35 @@
     <table>
         <tr>
             <th>System Time</th>
-            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.system_usec"))}</td>
+            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.system_usec"))} usecs</td>
         </tr>
         <tr>
             <th>Usage Time</th>
-            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.usage_usec"))}</td>
+            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.usage_usec"))} usecs</td>
         </tr>
         <tr>
             <th>User Time</th>
-            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.user_usec"))}</td>
+            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.user_usec"))} usecs</td>
         </tr>
         <tr>
             <th>Number of Bursts</th>
-            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.nr_bursts"))}</td>
+            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.nr_bursts"))} bursts</td>
         </tr>
         <tr>
             <th>Burst Time</th>
-            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.burst_usec"))}</td>
+            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.burst_usec"))} usecs</td>
         </tr>
         <tr>
             <th>Number of Periods</th>
-            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.nr_periods"))}</td>
+            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.nr_periods"))} periods</td>
         </tr>
         <tr>
             <th>Number of Throttles</th>
-            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.nr_throttled"))}</td>
+            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.nr_throttled"))} times</td>
         </tr>
         <tr>
             <th>Throttled Time</th>
-            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.throttled_usec"))}</td>
+            <td>${cgroupResultToListString(cpuInfo.get("cpu.stat.throttled_usec"))} usecs</td>
         </tr>
     </table>
 
@@ -78,43 +78,43 @@
     <table>
         <tr>
             <th>Current</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.current"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.current"))}</td>
         </tr>
         <tr>
             <th>High</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.high"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.high"))}</td>
         </tr>
         <tr>
             <th>Low</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.low"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.low"))}</td>
         </tr>
         <tr>
             <th>Max</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.max"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.max"))}</td>
         </tr>
         <tr>
             <th>Min</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.min"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.min"))}</td>
         </tr>
         <tr>
             <th>Peak</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.peak"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.peak"))}</td>
         </tr>
         <tr>
             <th>Swap Current</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.swap.current"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.swap.current"))}</td>
         </tr>
         <tr>
             <th>Swap High</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.swap.high"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.swap.high"))}</td>
         </tr>
         <tr>
             <th>Swap Max</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.swap.max"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.swap.max"))}</td>
         </tr>
         <tr>
             <th>Swap Peak</th>
-            <td>${cgroupResultToListString(memoryInfo.get("memory.swap.peak"))}</td>
+            <td>${cgroupResultToListBytes(memoryInfo.get("memory.swap.peak"))}</td>
         </tr>
     </table>
 @endif
